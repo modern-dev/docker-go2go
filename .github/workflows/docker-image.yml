@@ -13,4 +13,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag modern-dev/go2go:$(date +%s)
+      run: docker build . --file Dockerfile --tag virtyaluk/go2go:$(date +%s)
